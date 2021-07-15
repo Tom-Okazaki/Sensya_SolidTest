@@ -1,5 +1,9 @@
 ﻿using System;
 
+/* ソリッド原則を意識
+
+ブランチtest1でこの文を追加*/
+
 public class EnemyType
 {
     public string Name{ get; set; }
@@ -23,6 +27,9 @@ public class EnemyRegister{
         EnemyType E1 = new EnemyType("ふつうの敵", 10, 1, 1);
         EnemyType E2 = new EnemyType("はやいてき", 50, 1, 2);
         EnemyType E3 = new EnemyType("変な攻撃の敵", 10, 2, 3);
+
+        EnemyType E4 = new EnemyType("test", 7, 7, 7);
+        
         E1.Show();
         E2.Show();
         E3.Show();
