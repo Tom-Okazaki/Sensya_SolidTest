@@ -2,7 +2,9 @@
 
 /* ソリッド原則を意識
 
-ブランチtest1でこの文を追加*/
+ブランチtest1でこの文を追加
+
+git merge (test1 から　master に反映）のときこの文を追加*/
 
 public class EnemyType
 {
