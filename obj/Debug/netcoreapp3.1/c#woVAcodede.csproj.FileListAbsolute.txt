@@ -1,0 +1,12 @@
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/bin/Debug/netcoreapp3.1/c#woVAcodede.deps.json
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/bin/Debug/netcoreapp3.1/c#woVAcodede.runtimeconfig.json
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/bin/Debug/netcoreapp3.1/c#woVAcodede.runtimeconfig.dev.json
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/bin/Debug/netcoreapp3.1/c#woVAcodede.dll
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/bin/Debug/netcoreapp3.1/c#woVAcodede.pdb
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.csprojAssemblyReference.cache
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.AssemblyInfoInputs.cache
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.AssemblyInfo.cs
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.csproj.CoreCompileInputs.cache
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.dll
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.pdb
+/Users/okazakitomu/Downloads/C#定石パターン/Assets/c#woVAcodede/obj/Debug/netcoreapp3.1/c#woVAcodede.genruntimeconfig.cache
