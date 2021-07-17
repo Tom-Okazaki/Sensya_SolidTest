@@ -6,7 +6,12 @@
 
 git merge (test1 から　master に反映）のときこの文を追加*/
 
-public class EnemyType
+namespace EnemyMove{
+public interface Itest{
+    void test();
+}
+
+public class  EnemyType
 {
     public string Name{ get; set; }
     public int MoveSpeed{ get; set; }
@@ -24,16 +29,25 @@ public class EnemyType
     }
 }
 
-public class EnemyRegister{
-    static void Main(){
+public class EnemyRegister : Itest{
+    public void test(){
+
+        Console.WriteLine("aiueo");
+    }
+    
+
+    public static void Main(){ 
+        EnemyRegister EnRg = new EnemyRegister();
+        EnRg.test();
+
         EnemyType E1 = new EnemyType("ふつうの敵", 10, 1, 1);
         EnemyType E2 = new EnemyType("はやいてき", 50, 1, 2);
         EnemyType E3 = new EnemyType("変な攻撃の敵", 10, 2, 3);
-
         EnemyType E4 = new EnemyType("test", 7, 7, 7);
-        
+
         E1.Show();
-        E2.Show();
-        E3.Show();
+        Console.WriteLine(E1.Name);
+
     }
+}
 }
