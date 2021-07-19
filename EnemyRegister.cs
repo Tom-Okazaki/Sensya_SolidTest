@@ -9,7 +9,6 @@ git merge (test1 から　master に反映）のときこの文を追加*/
 namespace EnemyMove{
 public interface Itest{//試しにインターフェースを実装してみたが、依存性の注入がここではできていない（わからない）
     void test();
-    
 }
 
 public class  EnemyType
