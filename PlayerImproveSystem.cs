@@ -4,7 +4,7 @@ namespace PlayerImproveSystem
 {
     //自分の機体の強化を司る関数です
     class TEST{
-        //ここがメインで、プレイヤーに選択させる　⇨　それをもとに実際に強化を反映　⇨　チェック　の順番です
+        //ここがメインで、プレイヤーに選択させる　⇨　それをもとに実際に強化を反映　⇨　チェック（デバック用）　の順番です
             static void Main(string[] args){
             FacedeOfPlayerImproveSystem FacedeOfPlayerImproveSystem = new FacedeOfPlayerImproveSystem();
             FacedeOfPlayerImproveSystem.PlayerSellectImprove();
@@ -30,7 +30,7 @@ namespace PlayerImproveSystem
 
     class alotofMethod{
         //この中身をさらに分けた方が単一責任原則には当てはまる
-        //C#はパブリック変数が使えないので、戻り値をうまく使わないと分けられない？
+        //C#はパブリック変数が使えないので、戻り値をうまく使わないと分けられない？Unityなら大丈夫
         public int tamanohayasa = 1;
         public int tamanokazu = 1;
         public int idounohayasa = 1;
@@ -61,6 +61,9 @@ namespace PlayerImproveSystem
                 idounohayasa = idounohayasa + 1;
                 Console.WriteLine("idounohayasa + 1");
             }
+            //強化要素はふやせる
+            //数値の変更は容易
+            //強化要素を増やすときに、その変数を追加しUserSelectNoを追加してからメソッドも追加するのはもっと簡単にできる？
         }
 
         public void CHECKmethod(){

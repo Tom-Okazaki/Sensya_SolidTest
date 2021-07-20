@@ -7,7 +7,7 @@
 git merge (test1 から　master に反映）のときこの文を追加*/
 
 namespace EnemyMove{
-public interface Itest{//試しにインターフェースを実装してみたが、依存性の注入がここではできていない（わからない）
+public interface Itest{//試しにインターフェースを実装してみたが、依存性の注入がここではできていない？（わからない）
     void test();
 }
 
@@ -47,7 +47,7 @@ public class EnemyRegister : Itest{
         EnemyType E4 = new EnemyType("test", 7, 7, 7);
 
         E1.Show();
-        Console.WriteLine(E1.Name);
+        Console.WriteLine(E1.Name);//取得可能かの確認
 
     }
 }
