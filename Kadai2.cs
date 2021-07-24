@@ -48,10 +48,15 @@ namespace KADAI2
             Boss BOS1 = new Boss("１面のボス", 500);
             Kadai2.Player.Bullet.BulletHit BH = new Kadai2.Player.Bullet.BulletHit();
 
-            Console.WriteLine("エネミーのHPは{0}, 球の攻撃力は{1}",E1.HP,B1.AttackPoint);
-            Console.WriteLine("エネミーの残りHPは" + BH.HIT(E1.Name,E1.HP,B1.AttackPoint));
-            Console.WriteLine("BOSSのHPは{0}, 弾の攻撃力は{1}",BOS1.HP,B1.AttackPoint);
-            Console.WriteLine("BOSの残りHPは" + BH.HIT(BOS1.Name,BOS1.HP,B1.AttackPoint));
+            Console.WriteLine("{0}のHPは{1}, 弾の攻撃力は{2}",E1.Name,E1.HP,B1.AttackPoint);
+            E1.HP = BH.HIT(E1.Name,E1.HP,B1.AttackPoint);
+            Console.WriteLine("{0}の残りHPは{1}",E1.Name ,E1.HP);
+            
+            Console.WriteLine("{0}のHPは{1}, 弾の攻撃力は{2}",BOS1.Name,BOS1.HP,B1.AttackPoint);
+            BOS1.HP = BH.HIT(BOS1.Name,BOS1.HP,B1.AttackPoint);
+            Console.WriteLine("{0}の残りHPは{1}",BOS1.Name ,BOS1.HP);
+            BOS1.HP = BH.HIT(BOS1.Name,BOS1.HP,B1.AttackPoint);
+            Console.WriteLine("{0}の残りHPは{1}",BOS1.Name ,BOS1.HP);
         }
     }
 }
